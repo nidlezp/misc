@@ -1,0 +1,24 @@
+Functional Programming
+Lambda Expressions
+Immutable Classes
+Vagrant
+
+Capistrano – app deployment
+Backbone – JS library
+Mnesia – DBMS written in Erlang
+Erlang – advanced threading capabilities
+Ext JS – JS app framework for interactive web apps
+Chaplin JS – architecture for JS applications using the Backbone.js library.
+Angular JS – open source JS framework by Google, that assists with running single-page applications.
+SlickGrid – JavaScript grid/spreadsheet component
+Kanban – a method for developing software products and processes with an emphasis on just-in-time delivery while not overloading the software developers.
+Crystal – example of agile or lightweight methodology.
+RUP – iterative software development process framework.
+Lean – extension of lean manufacturing and lean services principles to the development and management of IT.
+Spike Solution – an experimental solution that cuts through all architecture layers.  Time-boxed and intended to be thrown away.
+Tracer Bullet – an experimental solution that cuts through all architecture layers.  Not necessarily time-boxed and intended to be thrown away.
+Crucible – code review application.
+Spira – software development process combining elements of both design and prototyping-in-stages.
+Greenhopper – AGILE for Jira.
+Catalys - 
+ 
