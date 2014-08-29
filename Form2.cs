@@ -18,18 +18,18 @@ namespace WindowsFormsApplication1
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            /*
-             * 
-             * 
-             * 
-             * 
-             * 
-             * 
-             * 
-             * 
-             * 
-             * 
-             * 
+            string input = "dfa&dfs dkfsOd* * &dfsd";
+            string output = "";
+
+            output = ReplaceNonAlphaChars(input, "hello");
+            
+            /* get city results
+             * read a line
+             * split line into tokens
+             * create map for line
+             * create map for all results w/ frequency
+             * display map of all results w/ frequency
+             * display all items with one or more chosen token             * 
              * */
             //ProcessTitle("D1 A2 D1 B4 A1 C6 B7 C8");
             ProcessTitle("1996 Ford Mustang GT Convertible, 5-Speed! Runs Great! Must See!! For Sale 1989 Mustang 5 speed 5.0 LX Convertible 1966 ford f100 straight body all new 5-speed Taurus SHO 1993 jeep wrangler READ AD PLEASE");
@@ -88,6 +88,14 @@ namespace WindowsFormsApplication1
             {
                 Console.Write(e.Message);
             }
+        }
+
+        private string ReplaceNonAlphaChars(string input, string replacement)
+        {
+            string pattern = "[^a-zA-Z0-9 ]";
+            System.Text.RegularExpressions.Regex rgx = new System.Text.RegularExpressions.Regex(pattern);
+            string result = rgx.Replace(input, replacement);
+            return result;
         }
     }
 }
